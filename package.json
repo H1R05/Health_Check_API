@@ -1,0 +1,30 @@
+{
+  "name": "health_check_api",
+  "version": "1.0.0",
+  "description": "App minimale per health check di un servizio integrata con una pipeline CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H1R05/Health_Check_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H1R05/Health_Check_API/issues"
+  },
+  "homepage": "https://github.com/H1R05/Health_Check_API#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.4"
+  }
+}
