@@ -1,6 +1,8 @@
+//Qui creo un server HTTP
 const express = require("express");
 const app = express();
 
+//Qui sto creando un endpoint, una API REST
 app.get("/", (req, res) => {
   res.json({
     messaggio: "Benvenuto",

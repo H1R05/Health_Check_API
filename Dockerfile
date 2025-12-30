@@ -1,3 +1,4 @@
+#Istruzioni per costruire l'ambiente docker
 FROM node:18-alpine
 WORKDIR /app
 COPY package*.json ./
